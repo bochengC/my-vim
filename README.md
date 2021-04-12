@@ -33,3 +33,11 @@ To solve it, vim into the `_vimrc` file, and do:
 :w ++ff=unix
 ```
 to deal with those carat M.
+
+## Using on Server
+Find the path of Vundle.vim .Then ,edit the line 3 in .vimrc change the path.
+'''
+Ex :
+set rtp+=c:/.vim/bundle/Vundle.vim
+set rtp+=/home/bocheng/.vim/bundle/Vundle.vim
+'''
